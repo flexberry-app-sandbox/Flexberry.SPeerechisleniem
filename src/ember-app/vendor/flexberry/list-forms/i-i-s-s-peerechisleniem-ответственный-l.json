@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-s-peerechisleniem-ответственный-e",
+  "editForm": "i-i-s-s-peerechisleniem-ответственный-e",
+  "external": false,
+  "caption": "Ответственный",
+  "name": "IISSPeerechisleniemОтветственныйL",
+  "className": "ОтветственныйL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-s-peerechisleniem-ответственный",
+      "modelProjection": "ОтветственныйL"
+    }
+  ]
+}

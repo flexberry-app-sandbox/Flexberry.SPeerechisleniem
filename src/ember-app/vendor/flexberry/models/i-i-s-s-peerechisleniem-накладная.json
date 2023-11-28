@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISSPeerechisleniemНакладная",
+  "modelName": "i-i-s-s-peerechisleniem-накладная",
+  "className": "Накладная",
+  "nameSpace": "IIS.SPeerechisleniem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "типНакл",
+      "type": "i-i-s-s-peerechisleniem-тип-накл",
+      "flexberryType": "ТипНакл",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "ответственный",
+      "relatedTo": "i-i-s-s-peerechisleniem-ответственный",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "НакладнаяE",
+      "modelName": "i-i-s-s-peerechisleniem-накладная",
+      "attrs": [
+        {
+          "name": "типНакл",
+          "caption": "Тип накл",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Фамилия",
+          "lookupValueField": "фамилия",
+          "relationName": "Ответственный",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Ответственный",
+          "name": "ответственный",
+          "relatedTo": "i-i-s-s-peerechisleniem-ответственный",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "НакладнаяL",
+      "modelName": "i-i-s-s-peerechisleniem-накладная",
+      "attrs": [
+        {
+          "name": "типНакл",
+          "caption": "Тип накл",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Ответственный",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фамилия",
+              "caption": "Фамилия",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Фамилия",
+          "name": "ответственный",
+          "relatedTo": "i-i-s-s-peerechisleniem-ответственный",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

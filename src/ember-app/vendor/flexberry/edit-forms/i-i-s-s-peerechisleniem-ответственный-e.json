@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Ответственный",
+  "name": "IISSPeerechisleniemОтветственныйE",
+  "className": "ОтветственныйE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-s-peerechisleniem-ответственный",
+      "modelProjection": "ОтветственныйE"
+    }
+  ]
+}

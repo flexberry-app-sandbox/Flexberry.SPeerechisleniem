@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Ответственный",
+      "projection": "ОтветственныйL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISSPeerechisleniemНакладнаяE",
+  "className": "НакладнаяE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-s-peerechisleniem-накладная",
+      "modelProjection": "НакладнаяE"
+    }
+  ]
+}

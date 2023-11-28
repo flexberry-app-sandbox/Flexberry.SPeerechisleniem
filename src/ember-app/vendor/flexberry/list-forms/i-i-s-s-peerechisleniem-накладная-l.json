@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-s-peerechisleniem-накладная-e",
+  "editForm": "i-i-s-s-peerechisleniem-накладная-e",
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISSPeerechisleniemНакладнаяL",
+  "className": "НакладнаяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-s-peerechisleniem-накладная",
+      "modelProjection": "НакладнаяL"
+    }
+  ]
+}

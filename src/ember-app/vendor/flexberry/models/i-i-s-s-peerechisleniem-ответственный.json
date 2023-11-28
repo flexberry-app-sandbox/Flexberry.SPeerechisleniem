@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISSPeerechisleniemОтветственный",
+  "modelName": "i-i-s-s-peerechisleniem-ответственный",
+  "className": "Ответственный",
+  "nameSpace": "IIS.SPeerechisleniem",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "фамилия",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтветственныйE",
+      "modelName": "i-i-s-s-peerechisleniem-ответственный",
+      "attrs": [
+        {
+          "name": "фамилия",
+          "caption": "Фамилия",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "ОтветственныйL",
+      "modelName": "i-i-s-s-peerechisleniem-ответственный",
+      "attrs": [
+        {
+          "name": "фамилия",
+          "caption": "Фамилия",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

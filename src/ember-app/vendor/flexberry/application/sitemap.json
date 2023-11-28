@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "S peerechisleniem",
+  "applicationTitle": "S peerechisleniem",
+  "items": [
+    {
+      "link": null,
+      "menuName": "s-peerechisleniem",
+      "caption": "SPeerechisleniem",
+      "title": "SPeerechisleniem",
+      "children": [
+        {
+          "link": "i-i-s-s-peerechisleniem-накладная-l",
+          "menuName": null,
+          "caption": "Накладная",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-s-peerechisleniem-ответственный-l",
+          "menuName": null,
+          "caption": "Ответственный",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
