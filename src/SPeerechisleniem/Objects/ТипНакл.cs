@@ -12,6 +12,7 @@ namespace IIS.SPeerechisleniem
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.SPeerechisleniem
         // *** Start programmer edit section *** (ТипНакл.Приходная CustomAttributes)
 
         // *** End programmer edit section *** (ТипНакл.Приходная CustomAttributes)
+        [Caption("прходная")]
         Приходная,
         
         // *** Start programmer edit section *** (ТипНакл.Расходная CustomAttributes)
 
         // *** End programmer edit section *** (ТипНакл.Расходная CustomAttributes)
+        [Caption("Расходная")]
         Расходная,
     }
 }
