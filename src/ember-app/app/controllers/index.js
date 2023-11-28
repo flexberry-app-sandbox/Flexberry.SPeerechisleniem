@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-s-peerechisleniem-накладная-l',
             caption: i18n.t('forms.application.sitemap.s-peerechisleniem.i-i-s-s-peerechisleniem-накладная-l.caption'),
             title: i18n.t('forms.application.sitemap.s-peerechisleniem.i-i-s-s-peerechisleniem-накладная-l.title'),
-            icon: 'chart bar',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-s-peerechisleniem-ответственный-l',
             caption: i18n.t('forms.application.sitemap.s-peerechisleniem.i-i-s-s-peerechisleniem-ответственный-l.caption'),
             title: i18n.t('forms.application.sitemap.s-peerechisleniem.i-i-s-s-peerechisleniem-ответственный-l.title'),
-            icon: 'briefcase',
+            icon: 'table',
             children: null
           }]
         }
